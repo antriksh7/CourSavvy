@@ -1,0 +1,80 @@
+.evaluation,.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size:17px;
+
+}
+body{
+    padding:10px 30px;
+}
+.description{
+    margin:0px 40px 0px 0px;
+}
+h2{
+  color: #023E8A;
+}
+h1{
+    font-weight: bolder;
+    font-size:22px;
+    color: #023E8A;
+}
+#text{
+    font-weight: bold;
+    font-size:20px;
+}
+.thumbs-section {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    align-items: center;
+  }
+  .thumbs{
+    display: flex;
+    gap:20px;
+  }
+  .thumbs-up,
+  .thumbs-down {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    font-size:28px;
+  }
+  
+
+  .reviewer{
+    font-weight: bold;
+    font-size:18px;
+  }
+  .thumbs-up:hover{
+    color:black;
+  }
+  .thumbs-down:hover {
+    filter: brightness(1.2); /* Slightly increase brightness on hover */
+  }
+  .return{
+    font-size:33px;
+    cursor: pointer;
+  }
+  .main{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-bottom: 10px;
+
+  }
+  .location{
+    margin:0px
+  }
+  span {
+    display: block;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  @media (max-width: 477px) {
+    .heading{
+      flex-direction: column;
+    }
+  }
